@@ -1,10 +1,21 @@
-div.skew {
-	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand')";
-		filter: progid:DXImageTransform.Microsoft.Matrix(M11=1,M12=0.28674538575880865,M21=0,M22=1,SizingMethod='auto expand');
-}
+/*
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
-div.skew > div.wrap {
-	margin-left: -20.1%;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=-0.2867453857588081, M21=0, M22=1, SizingMethod='auto expand')";
-		filter: progid:DXImageTransform.Microsoft.Matrix(M11=1,M12=-0.286745385759,M21=0,M22=1,SizingMethod='auto expand');
-}
+/* Button */
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		border: solid 2px #f56a6a;
+	}
+
+/* Posts */
+
+	.posts article {
+		width: 40%;
+	}
